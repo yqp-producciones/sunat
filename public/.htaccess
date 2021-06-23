@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+options -Multiviews
+RewriteEngine On
+RewriteBase /sunat/public
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
+<FilesMatch "\.(png|jpe?g|gif)$"> 
+    Satisfy Any 
+    Allow from all 
+</FilesMatch>

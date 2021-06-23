@@ -1,0 +1,81 @@
+{
+    "packages": [
+        {
+            "name": "giansalex/peru-consult",
+            "version": "v4.4.3",
+            "version_normalized": "4.4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giansalex/peru-consult.git",
+                "reference": "7e86420925eb2aeb6091897327bb980281331726"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giansalex/peru-consult/zipball/7e86420925eb2aeb6091897327bb980281331726",
+                "reference": "7e86420925eb2aeb6091897327bb980281331726",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "behat/behat": "^3.5",
+                "clue/block-react": "^1.3",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7"
+            },
+            "suggest": {
+                "react/http": "Allow Dni, Ruc async requests"
+            },
+            "time": "2021-05-18T20:59:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Peru\\": "src/Peru/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giancarlos Salas",
+                    "email": "giansalex@gmail.com"
+                }
+            ],
+            "description": "Consulta gratuita de DNI, RUC en Perú",
+            "homepage": "https://github.com/giansalex/peru-consult",
+            "keywords": [
+                "DNI",
+                "consulta-dni",
+                "consulta-ruc",
+                "peru",
+                "reniec",
+                "ruc",
+                "sunat"
+            ],
+            "support": {
+                "issues": "https://github.com/giansalex/peru-consult/issues",
+                "source": "https://github.com/giansalex/peru-consult/tree/v4.4.3"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/giansalex",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://yape.giansalex.dev/",
+                    "type": "custom"
+                }
+            ],
+            "install-path": "../giansalex/peru-consult"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
